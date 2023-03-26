@@ -1,3 +1,5 @@
+package Model;
+
 import java.util.Scanner;
 
 public class Bai6 {
@@ -8,6 +10,10 @@ public class Bai6 {
     public Bai6() {
         System.out.println("Nhập vào 1 chuỗi: ");
         this.s = scanner.nextLine();
+
+    }
+
+    public void chuoiDaoNguoc(){
         String ch = "";
         for (int i = s.length()-1; i >= 0; i--) {
             ch +=s.charAt(i);

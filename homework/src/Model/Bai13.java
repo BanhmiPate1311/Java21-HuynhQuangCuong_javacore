@@ -1,17 +1,14 @@
+package Model;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Bai13 {
     Scanner scanner = new Scanner(System.in);
-    public Bai13() {
-        System.out.print("Nhập vào số phần tử của mảng: ");
-        int x = scanner.nextInt();
-        List<Integer> arrNumber = new ArrayList<>();
-        for (int i = 0; i < x; i++) {
-            System.out.print("Nhập phần tử thứ " + (i + 1) + ": ");
-            arrNumber.add(scanner.nextInt()) ;
-        }
+
+    public void lamBai13() {
+        List<Integer> arrNumber = nhapMang();
         tinhTrungBinh(arrNumber);
         minMax(arrNumber);
         minMaxNeg(arrNumber);
@@ -19,6 +16,17 @@ public class Bai13 {
         inChanLe(arrNumber);
         themPhanTu(arrNumber);
         xoaPhanTu(arrNumber);
+    }
+
+    public List<Integer> nhapMang() {
+        System.out.print("Nhập vào số phần tử của mảng: ");
+        int x = scanner.nextInt();
+        List<Integer> arrNumber = new ArrayList<>();
+        for (int i = 0; i < x; i++) {
+            System.out.print("Nhập phần tử thứ " + (i + 1) + ": ");
+            arrNumber.add(scanner.nextInt()) ;
+        }
+        return arrNumber;
     }
 
     public void tinhTrungBinh(List<Integer> arrNumber) {

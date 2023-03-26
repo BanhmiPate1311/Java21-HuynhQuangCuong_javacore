@@ -1,3 +1,5 @@
+package Model;
+
 public class QuocKyMy {
     public void inQuocKy(){
         for (int i = 0; i < 15; i++) {

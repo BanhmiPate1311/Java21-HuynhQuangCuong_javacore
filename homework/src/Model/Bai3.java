@@ -1,3 +1,5 @@
+package Model;
+
 public class Bai3 {
     public void inThongSo(){
         System.out.println("Java version: " + System.getProperty("java.version"));
