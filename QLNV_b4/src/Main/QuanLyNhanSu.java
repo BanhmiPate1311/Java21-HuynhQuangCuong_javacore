@@ -72,7 +72,7 @@ public class QuanLyNhanSu {
         out.format("| %-3s | %-60s |%n", " 1", "Thêm Nhân Viên");
         out.format("| %-3s | %-60s |%n", " 2", "Thêm Trưởng Phòng");
         out.format("| %-3s | %-60s |%n", " 3", "Thêm Giám Đốc");
-        out.format("| %-3s | %-60s |%n", " 4", "Xóa Trưởng Phòng");
+        out.format("| %-3s | %-60s |%n", " 4", "Xóa Nhân viên");
         out.format("| %-3s | %-60s |%n", " 0", "Thoát");
         out.format("+-----+--------------------------------------------------------------+%n");
         out.print("Bạn hãy chọn chức năng cần thực hiện: ");
