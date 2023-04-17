@@ -1,0 +1,174 @@
+.container_wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.header .logo {
+    width: 250px;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #0D1524;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #f00;
+}
+
+.carousel {
+    height: 450px;
+    margin-top: 10px;
+    background: url("../img/slider_1.jpg") center center / cover no-repeat content-box;
+}
+
+.intro .intro-text {
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.intro-product-left,
+.intro-product-right {
+    float: left;
+    width: 50%;
+}
+
+.intro-product-item {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.intro-product-item-1 {
+    width: 50%;
+}
+
+.intro-product-item-2 {
+    width: 100%;
+}
+
+.intro-product-item img {
+    width: 100%;
+    display: block;
+}
+
+.product>h1 {
+    text-align: center;
+}
+
+.product .product-item {
+    width: 25%;
+    padding: 0 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.product .product-item .product-content {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.product .product-item img {
+    width: 100%;
+}
+
+.product .product-item .item-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product .product-item .item-content {
+    color: #000;
+    font-size: 17px;
+}
+
+.product .product-item .item-btn {
+    background-color: #f00;
+    border: 1px solid #f00;
+    color: #fff;
+}
+
+.banner {
+    margin-top: 20px;
+    height: 400px;
+    background: url(../img/nature.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.banner .saleoff {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.banner .saleoff p:nth-child(2) {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.banner .saleoff h2,
+.banner .saleoff p {
+    color: #fff;
+    text-align: center;
+}
+
+.banner .saleoff h2 {
+    margin-top: 70px;
+}
+
+.service {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.service__item {
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+}
+
+.service__item i {
+    font-size: 40px;
+    color: #000;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
